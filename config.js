@@ -1,7 +1,7 @@
 'use strict';
 
 module.exports = {
-  url: `https://donghoon759.github.io`,
+  url: 'https://donghoon759.github.io',
   pathPrefix: '/',
   title: '사진찍는 웹 개발자',
   subtitle: 'Vue.js를 이용해 FrontEnd 개발을 하고 있습니다.',
