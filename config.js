@@ -1,14 +1,14 @@
 'use strict';
 
 module.exports = {
-  url: 'https://lumen.netlify.com',
+  url: `https://donghoon759.github.io`,
   pathPrefix: '/',
-  title: 'Blog by John Doe',
-  subtitle: 'Pellentesque odio nisi, euismod in, pharetra a, ultricies in, diam. Sed arcu.',
+  title: '사진찍는 웹 개발자',
+  subtitle: 'Vue.js를 이용해 FrontEnd 개발을 하고 있습니다.',
   copyright: '© All rights reserved.',
-  disqusShortname: '',
+  disqusShortname: 'Donghoon',
   postsPerPage: 4,
-  googleAnalyticsId: 'UA-73379983-2',
+  googleAnalyticsId: 'UA-133383546-1',
   useKatex: false,
   menu: [
     {
@@ -25,15 +25,15 @@ module.exports = {
     }
   ],
   author: {
-    name: 'John Doe',
+    name: 'Donghoon Song',
     photo: '/photo.jpg',
-    bio: 'Pellentesque odio nisi, euismod in, pharetra a, ultricies in, diam. Sed arcu.',
+    bio: '사람들의 꿈을 이어주는 코멘토에서 일하고 있습니다.',
     contacts: {
-      email: '',
-      facebook: '#',
+      email: 'thdehdgns@gmail.com',
+      facebook: 'thdehdgns759',
       telegram: '#',
       twitter: '#',
-      github: '#',
+      github: 'Donghoon759',
       rss: '',
       vkontakte: '',
       linkedin: '#',
