@@ -161,7 +161,7 @@ console.log('isNodeFlag : ', isNodeFlag(flag, false));
 [ [ 'es-staging', true ] ]
 ```
 
-이 목록에 `—-prof`가 빠져있으니 추가해준다. `—-prof는 mochaFlag, nodeFlag, debugFlag`가 아니므로 `네번째 or문`에서 처리된다.
+이 목록에 `—-prof`가 빠져있으니 추가해준다. `—-prof`는 `mochaFlag`, `nodeFlag`, `debugFlag`가 아니므로 `네번째 or문`에서 처리된다.
 
 ```jsx
 ./lib/cli/node-flags.js
