@@ -37,7 +37,7 @@ export default {
 }
 </style>
 ```
-<br/>
+
 main.js는 다음과 같이 기본 scss 설정만 되어있었습니다.
 
 ```js
