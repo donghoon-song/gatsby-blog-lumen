@@ -2,11 +2,13 @@
 @import '../../../assets/scss/mixins';
 
 .content {
+  //word-break: keep-all;
   max-width: $layout-post-single-width;
   padding: 0 15px;
   margin: 0 auto;
 
   &__title {
+    word-break: keep-all;
     font-size: $typographic-base-font-size * 2;
     max-width: $layout-post-width;
     margin-left: auto;

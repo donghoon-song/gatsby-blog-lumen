@@ -10,7 +10,6 @@ tags:
   - "Contribution"
 description: "저는 현재 오픈소스 컨트리뷰톤 Mocha팀에서 멘티로 활동하고 있습니다. Mocha의 #4433 이슈를 해결하면서 배운 점들을 적어봤습니다."
 ---
-# 초보 컨트리뷰터의 Mocha issue 해결 도전기
 
 저는 현재 오픈소스 컨트리뷰톤 Mocha팀에서 멘티로 활동하고 있습니다. Mocha의 #4433 이슈를 해결하면서 배운 점들을 적어봤습니다. 최대한 raw하게, 혼잣말 하듯이 의식의 흐름대로 작성해보았습니다. 양해부탁드립니다 :) 저처럼 오픈소스에 대한 경험이 많이 없고, 두려운 초보자들에게 큰 도움이 되었으면 합니다.
 
@@ -162,7 +161,7 @@ console.log('isNodeFlag : ', isNodeFlag(flag, false));
 [ [ 'es-staging', true ] ]
 ```
 
-이 목록에 `—-prof`가 빠져있으니 추가해준다. `—-prof는 mochaFlag, nodeFlag, debugFlag`가 아니므로 `네번째 or문`에서 처리된다.
+이 목록에 `—-prof`가 빠져있으니 추가해준다. `—-prof`는 `mochaFlag`, `nodeFlag`, `debugFlag`가 아니므로 `네번째 or문`에서 처리된다.
 
 ```jsx
 ./lib/cli/node-flags.js
