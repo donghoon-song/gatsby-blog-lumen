@@ -56,13 +56,12 @@ npx chromatic --project-token=<project-token>
 그러고 나서 chromatic에 들어가면 정상적으로 배포된 것을 볼 수 있습니다.
 ![image](https://user-images.githubusercontent.com/32301380/92944506-03d4cd80-f48f-11ea-8b6b-9a6ea1befa5b.png)
 
-진짜 chromatic의 기능은 여기부터 시작입니다. 아무 변화나 주고 다시 배포를 해봅시다. 저는 Icon 컴포넌트 중 하나의 사이즈를 변경해보았습니다.
+진짜 chromatic의 기능은 여기부터 시작입니다. 아무 변화나 주고 다시 배포를 해봅시다. 저는 버튼의 background-color를 파랑에서 빨강으로 바꿔봤습니다.
 그럼 다음처럼 변경점이 감지되었음을 보여줍니다. Review changes 버튼을 클릭해서 들어가봅시다.
-![image](https://user-images.githubusercontent.com/32301380/92944556-15b67080-f48f-11ea-9504-39e474e0991b.png)
+![image](https://user-images.githubusercontent.com/32301380/92947467-ff121880-f492-11ea-9062-499e544c7400.png)
 
-다음 처럼 UI 변경점을 보여줍니다.
-![image](https://user-images.githubusercontent.com/32301380/92944594-2666e680-f48f-11ea-90d2-7d6911606dcc.png)
-![image](https://user-images.githubusercontent.com/32301380/92944624-31ba1200-f48f-11ea-99fa-cd1376f7ee28.png)
+다음 처럼 UI 변경점을 보여줍니다. 바뀐 지점이 연두색으로 덮혀있습니다. DOM에서도 바뀐게 감지되었죠.
+![image](https://user-images.githubusercontent.com/32301380/92947491-0afdda80-f493-11ea-8b97-186ef3ddd49a.png)
 
 이렇게 배포할 때마다 UI의 변경점을 감지하고, 둘 중에 하나를 선택해서 적용할 수 있습니다. 내가 작업한 결과물이 기존것과 잘 매치되는지, 잘 변경되는지 등을 손쉽게 테스트할 수 있어 정말 유용한 서비스 같습니다.
 
