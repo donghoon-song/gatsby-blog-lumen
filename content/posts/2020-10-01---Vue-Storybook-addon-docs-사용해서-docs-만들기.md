@@ -65,9 +65,9 @@ addParameters({
 });
 ```
 
-![example story](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/b55e3aef-678f-45fb-8108-1d18b8357662/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20201001%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20201001T143019Z&X-Amz-Expires=86400&X-Amz-Signature=d2164c626d7fdc186da87623398365e620dc4d3ac576dcf63e8119e3d1f570b5&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Untitled.png%22)
+![image](https://user-images.githubusercontent.com/32301380/94831255-7827de80-0447-11eb-894f-6da38fadb347.png)
 
-![example docs](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/3abf8bcf-f04b-40d5-835e-f87060295b6b/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20201001%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20201001T143536Z&X-Amz-Expires=86400&X-Amz-Signature=9626d50bcb1f3f3ff4cdf44833cb77e6fc50d6d34d7b392da2cd52cf9f572787&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Untitled.png%22)
+![image](https://user-images.githubusercontent.com/32301380/94831266-7cec9280-0447-11eb-8390-48328c68df64.png)
 
  스토리를 기반으로, Docs 페이지가 생성되었습니다. 스토리에 정보가 별로 없어서, Docs에 들어가는 내용도 별로 없습니다. 저는 MDX를 이용해 저만의 docs를 작성하고 싶었습니다.
 
@@ -103,7 +103,7 @@ import Button from '@/src/Components/Button/Button';
 
 우리가 새로 만든 docs로 대체되었습니다!
 
-![Button docs](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/733e3cd9-5d8f-4505-b29f-bfa286a86a62/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20201001%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20201001T145604Z&X-Amz-Expires=86400&X-Amz-Signature=267a73184c013417c3f3522f0d8bc1014541ad6c8e703ba5870565bda7ee10c9&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Untitled.png%22)
+![image](https://user-images.githubusercontent.com/32301380/94831284-80801980-0447-11eb-9c97-e210a73b3765.png)
 
 ## @storybook/addon-controls
 
@@ -142,11 +142,11 @@ import Button from '@/src/Components/Button/Button';
 <ArgsTable of={Button} />
 ```
 
-![Basic ArgsTable](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/95c586c0-90aa-4c82-8171-010669a87001/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20201001%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20201001T151331Z&X-Amz-Expires=86400&X-Amz-Signature=087f7c5eae848a50de0fcd2e68160cd0e6072bcb085ab9f8c02a80fb878cb235&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Untitled.png%22))
+![image](https://user-images.githubusercontent.com/32301380/94831298-84ac3700-0447-11eb-8bce-58260942c578.png)
 
 `addon-controls` 를 설치하고 만들면 아래와 같이 나옵니다. `Control` 열이 더 생겨서, 사용자가 직접 수정할 수 있게끔 도와줍니다. 이것은 Button 컴포넌트의 props를 읽어서 자동생성되었습니다.
 
-![ArgsTable with controls](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/95729f3f-130d-49e0-ad1e-9b1fd9e8cdb6/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20201001%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20201001T151415Z&X-Amz-Expires=86400&X-Amz-Signature=0f72ffe931cb16f8447bb8fe7d21bf946eb171ba9d6dbeadfa2da571670e1d9c&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Untitled.png%22)
+![image](https://user-images.githubusercontent.com/32301380/94831311-883fbe00-0447-11eb-8bfe-c98a89ed14bb.png)
 
 ```jsx
 // Button.vue
@@ -190,11 +190,11 @@ Meta에 argTypes를 작성하여, Template에 넘겨줍니다. 아래 ArgTypes �
 
 [ArgTypes](https://storybook.js.org/docs/react/api/argtypes)
 
-![ArgTypes](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/334460ea-66c9-49c6-9062-4576e5d22c2a/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20201001%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20201001T151725Z&X-Amz-Expires=86400&X-Amz-Signature=66abb58b100c0477a5f728eacc410e908323b1c417bf4f5d0f5f43139feb9642&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Untitled.png%22)
+![image](https://user-images.githubusercontent.com/32301380/94831329-8d047200-0447-11eb-9df1-a7e4cdf70eee.png)
 
 ### controls 작성법
 
-![Controls](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/dcc885a5-e1b8-4881-86a8-467d35588438/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20201001%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20201001T151741Z&X-Amz-Expires=86400&X-Amz-Signature=280a3affc28eb873e42c98be2ab64412c54ca4a8be4de7df956f09f3ef2b83a3&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Untitled.png%22)
+![image](https://user-images.githubusercontent.com/32301380/94831343-92fa5300-0447-11eb-8241-ef6c945005c3.png)
 
 두 문서를 바탕으로 작성한 문서입니다.
 
@@ -291,4 +291,4 @@ export const Template = (args, { argTypes }) => ({
 
 해당 작업까지 완료되었다면 제가 원했던 원하는 docs를 만드실 수 있습니다. 아래 `ArgsTable`에서 arguments를 마음대로 수정하여 컴포넌트의 상태를 변경할 수 있습니다.
 
-![docs](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/21d00b40-5a79-4988-b120-ff87ba85e285/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20201001%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20201001T152051Z&X-Amz-Expires=86400&X-Amz-Signature=6b5f4899b68f8cbb12f22cff18594aace6fa9edeb5852cca044e7fa63af538e9&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Untitled.png%22)
+![image](https://user-images.githubusercontent.com/32301380/94831357-98579d80-0447-11eb-8279-b94696386677.png)
