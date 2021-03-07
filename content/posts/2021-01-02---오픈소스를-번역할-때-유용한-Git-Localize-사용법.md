@@ -7,10 +7,7 @@ category: "Tools"
 tags:
   - "Tools"
   - "Git Localize"
-  - "Git 번역"
-  - "오픈소스 번역"
   - "오픈소스"
-  - "translation"
 description: "오픈소스 번역을 도와주는 Git Localize의 사용법을 다룹니다."
 ---
 
